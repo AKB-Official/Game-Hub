@@ -1,7 +1,7 @@
 # Game-Hub
 
 Github Pages
-
+https://akb-official.github.io/Game-Hub/
 
 
 VISUAL NOVELS GAMES

@@ -1,0 +1,67 @@
+.logo-header:hover {
+    box-shadow: 10px 10px 15px 5px #ffffff;
+    border-radius: 20px;
+}
+
+.hero-image-funko-pops:hover, .new-arrivals-hero-image:hover, .top-sellers-hero-image:hover, .pre-order-hero-image:hover, .products-container:hover, .hero-image-xbox-accesories:hover, .hero-image-playstation-accesories:hover, .hero-image-pc-accesories:hover, .hero-image-nintedo-switch-accesories:hover {
+    box-shadow: 5px 5px 10px 10px #ffffff;
+}
+
+#cart-button:hover, .location-menu-thing img:hover, .menubar img:hover  {
+    box-shadow: 10px 10px 15px 5px #ffffff;
+    border-radius: 10px;
+}
+
+
+.hero-text h1:hover, .hero-text p:hover, #category-container-header h1:hover, .hero-text-one h1:hover, .hero-text-one p:hover {
+    color: #03FFFF;
+}
+
+#hero-button a:hover, .footer-box-one h1:hover, .footer-box-one p:hover, .footer-box-two h1:hover, .footer-box-three h1:hover, .footer-box-four h1:hover {
+    color: #1BBE00;
+}
+
+#hero-button:hover {
+    box-shadow: 5px 5px 10px 10px #0F6A00;
+    width: 300px;
+}
+
+#hero-button-two:hover {
+    box-shadow: 5px 2px 10px 5px #094CDB;
+}
+
+#hero-button-two a:hover {
+    color: #ffffff;
+}
+
+#horror-games:hover, #action-games:hover, #beat-em-games:hover, #breakout-clone-games:hover, #children-games:hover, #graphic-adventure-games:hover, #graphic-adventure-games:hover, #physics-games:hover, #programming-games:hover, #puzzle-games:hover, #rpg-games:hover, #sports-games:hover, #strategy-games:hover, #survival-games:hover {
+    background-color: #023299;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    border: 2px solid #ffffff;
+}
+
+#star-wars-games:hover, #adventure-games:hover, #battle-games:hover, #board-games:hover, #educational-games:hover, #logical-games:hover, #metroidvania-games:hover, #platform-games:hover, #racing-games:hover, #shooter-games:hover, #simulation-games:hover, #stealth-games:hover, #visual-novels-games:hover {
+    background-color: #2E7702;
+    box-shadow: 5px 5px 10px 5px #4FC009;
+    border: 2px solid #ffffff;
+}
+
+#horror-games a:hover, #star-wars-games a:hover, #action-games a:hover, #adventure-games a:hover, #battle-games a:hover, #beat-em-games a:hover, #board-games a:hover, #breakout-clone-games a:hover, #children-games a:hover, #graphic-adventure-games a:hover, #educational-games a:hover, #graphic-adventure-games a:hover, #logical-games a:hover, #metroidvania-games a:hover, #physics-games a:hover, #platform-games a:hover, #programming-games a:hover, #puzzle-games a:hover, #rpg-games a:hover, #racing-games a:hover, #shooter-games a:hover, #simulation-games a:hover, #stealth-games a:hover, #sports-games a:hover, #strategy-games a:hover, #survival-games a:hover, #visual-novels-games a:hover {
+    color: #ffffff;
+}
+
+.product-info:hover {
+    transition: 0.2s;
+    height: 143px;
+    transform: scale(1);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.799), rgba(0, 0, 0, 0)), url();
+}
+
+.menubar a:hover {
+    font-size: 30px;
+    color: #02FFF0;
+  }
+
+  #mymenu h1:hover, #mymenu h2:hover, .footer-box-two a:hover, .footer-box-three a:hover, .footer-box-four a:hover {
+    color: #2501FF;
+  }

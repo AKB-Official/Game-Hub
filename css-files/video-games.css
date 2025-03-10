@@ -1,0 +1,126 @@
+.video-game-holder-section-flex, .video-game-price {
+    display: flex;
+}
+
+.checked {
+    color: #FFD700;
+  }
+
+.video-game-stars {
+    margin-left: 80px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.video-game-product-thing {
+    background-color: #ffffff;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+.video-thing-photo img {
+    width: 350px;
+    height: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+.video-game-header h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+#video-game-trailer {
+    background-color: #000000;
+    box-shadow: 5px 5px 10px 5px #232425;
+    width: 250px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+}
+
+#video-game-trailer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#select-console-type {
+    width: 300px;
+    margin-left: 25px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #B5B5B5;
+}
+
+.video-game-price {
+    margin-top: -10px;
+}
+
+#old-price {
+    text-decoration: line-through;
+    color: #818181;
+    margin-left: 20px;
+}
+
+#real-price {
+    color: #000000;
+    margin-left: 70px;
+}
+
+#buy-button {
+    width: 300px;
+    background-color: #023299;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    margin-left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+}
+
+#buy-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.title-of-category-page {
+    background-color: #800000;
+    width: 800px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.more-games-end-button {
+    background-color: #800000;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.more-games-end-button h1 {
+    font-size: 45px;
+}
+
+.more-games-end-button p, .more-games-end-button a {
+    font-size: 25px;
+}
+
+.more-games-end-button a {
+    color: #00fc00;
+    text-decoration: none;
+}

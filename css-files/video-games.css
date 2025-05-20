@@ -72,22 +72,6 @@
     margin-left: 70px;
 }
 
-#buy-button {
-    width: 300px;
-    background-color: #023299;
-    box-shadow: 5px 5px 10px 5px #094CDB;
-    margin-left: 25px;
-    border-radius: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    border: 2px solid #ffffff;
-}
-
-#buy-button a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .title-of-category-page {
     background-color: #800000;
     width: 800px;
@@ -123,4 +107,17 @@
 .more-games-end-button a {
     color: #00fc00;
     text-decoration: none;
+}
+
+button {
+    width: 300px;
+    background-color: #023299;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    margin-left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    font-size: 25px;
+    color: #ffffff;
 }

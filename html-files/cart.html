@@ -87,6 +87,80 @@
 </header>
 
 <main class="page-body">
+
+    <article class="cart-page-container-thing">
+        <!-- LIST ITEMS -->
+        <div class="items-lists">
+            <h1>Your Shopping Cart</h1>
+            <ul id="cart-list"></ul>
+            <p id="total-price">Total Price: $0</p>
+            <button onclick="clearCart()">Clear Cart</button>
+        </div>
+        <!-- FILL OUT FORM TO PURCHASE-->
+        <form class="purchase-form" id="purchase">
+            <h1>Fill Out Your Information And Pay Now</h1>
+            <ul>
+                <li>
+                    <label for="name">Your Full Name</label>
+                    <br>
+                    <input type="text" id="full-name" name="full_name">
+                </li>
+                <br>
+                <li>
+                    <label for="phone-number">Enter Your Phone Number</label>
+                    <br>
+                    <input type="text" id="phone-number" name="phone-number">
+                </li>
+                <br>
+                <li>
+                    <label for="mail">Enter Your E-mail</label>
+                    <br>
+                    <input type="email" id="email-filed" name="user_email"/>
+                </li>
+                <br>
+                <li>
+                    <label for="house-adress">Your Address</label>
+                    <br>
+                    <input type="house-address" id="house-adress" name="house">
+                </li>
+                <br>
+                <li>
+                    <label for="zip-code">ZIP Code</label>
+                    <br>
+                    <input type="zip" id="zip-code" name="zip-code">
+                </li>
+                <br>
+                <li>
+                    <label for="contry">Residency Country</label>
+                    <br>
+                    <input type="country" id="country" name="country">
+                </li>
+                <br>
+                <li>
+                    <label for="card-number">Card Number</label>
+                    <br>
+                    <input type="card-number" id="card-number" name="card-number">
+                </li>
+                <br>
+                <li>
+                    <label for="expiring-date">Expiration Date</label>
+                    <br>
+                    <input tabindex="expiration-date" id="short-input" name="expiration-date">
+                </li>
+                <br>
+                <li>
+                    <label for="cvc">CVC</label>
+                    <br>
+                    <input type="cvc" id="short-input" name="cvc">
+                </li>
+                <br>
+                <button class="purchase-button" type="submit">
+                    <a href="./sucessful-cart.html">Pay Now</a>
+                </button>
+            </ul>
+        </form>
+    </article>
+    
 </main>
 
 

@@ -1,0 +1,114 @@
+.cart-page-container-thing {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.items-lists {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1700830960459-90d4dd355b7b?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+}
+
+.purchase-form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=3259&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+}
+
+.items-lists, .purchase-form, .succesful-cart-conatiner {
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 2px solid #ffffff;
+}
+
+.items-lists h1, .items-lists ul, .items-lists p, .purchase-form h1, .purchase-form li {
+    color: #ffffff;
+}
+
+.items-lists h1, .purchase-form h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.items-lists ul, .purchase-form li, .items-lists p {
+    font-size: 25px;
+}
+
+.items-lists {
+    width: 450px;
+}
+
+.purchase-form {
+    width: 450px;
+}
+
+.items-lists {
+    margin-left: 200px;
+}
+
+.purchase-form {
+    margin-left: 200px;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #094CDB;
+    border: 2px solid #094CDB;
+}
+
+.items-lists button {
+    margin-left: 130px;
+}
+
+.purchase-button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+input {
+    width: 350px;
+    margin-left: -40px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid #094CDB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.items-lists p, .items-lists ul {
+    text-align: center;
+}
+
+.succesful-cart-conatiner p {
+    text-transform: capitalize;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px 30px 0px 30px;
+}
+
+.succesful-cart-conatiner h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.succesful-cart-conatiner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1613679074451-9ddcc1103cc8?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+}
+
+.succesful-cart-conatiner {
+    width: 700px;
+    height: 500px;
+    margin: 50px 0px 50px 430px;
+}
